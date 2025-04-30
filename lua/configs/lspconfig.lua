@@ -7,6 +7,7 @@ local lspconfig = require("lspconfig")
 -- list of all servers configured.
 lspconfig.servers = {
     "lua_ls",
+    "arduino-language-server",
     "gopls",
     "intelephense",
     "pyright",
@@ -18,6 +19,7 @@ lspconfig.servers = {
 -- list of servers configured with default config.
 local default_servers = {
     "intelephense",
+    "arduino-language-server",
     "pyright",
     "svelte",
     "tailwindcss",
