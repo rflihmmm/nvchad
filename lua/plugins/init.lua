@@ -121,11 +121,11 @@ return {
             -- add any opts here
             provider = "openrouter",
             vendors = {
-                deepseek = {
+                openrouter = {
                     __inherited_from = "openai",
                     endpoint = "https://openrouter.ai/api/v1",
                     api_key_name = "OPENROUTER_API_KEY",
-                    model = "deepseek/deepseek-r1",
+                    model = "deepseek/deepseek-chat-v3",
                 },
             }, -- for example
         },
